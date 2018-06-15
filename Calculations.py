@@ -71,5 +71,5 @@ def Determinant(matrix):
     for ind in range(len(matrix)):
         det=det*matrix[ind][ind]
 
-    return (-1)**sign*det
+    return format((-1)**sign*det,'.2f')
 
